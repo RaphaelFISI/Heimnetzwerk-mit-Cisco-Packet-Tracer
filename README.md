@@ -34,6 +34,8 @@ Zuerst habe ich den Grundriss und die Geräte in der Wohnung platziert. Danach h
 
 Für den Anbieterbereich habe ich einen Cisco 2911, einen 2960 Switch und einen Server ergänzt. Der Server stellt DHCP und DNS bereit. Ein weiterer Server simuliert ein Ziel im Internet und stellt HTTP bereit.
 
+![Gesamte Netzwerktopologie](topologie-gesamt.png)
+
 ### IP-Adressplan
 
 #### Anbieternetz und WAN Verbindung
@@ -91,7 +93,11 @@ Die aufgeführten Adressen wurden den Geräten während der Einrichtung per DHCP
 
 Der Vodafone DHCP-Server vergibt dem Internetanschluss des WRT300N die Adresse `10.0.0.100`. Der WRT300N vergibt anschließend eigene Adressen an die Geräte im Heimnetz. So sind Anbieternetz und Heimnetz getrennt.
 
+![DHCP Service](dhcp-service.png)
+
 Auf dem Vodafone Server ist außerdem DNS eingerichtet. Der Name `www.heimnetz.test` verweist auf den simulierten Webserver. Auf dem Internet Web-Server ist HTTP eingeschaltet.
+
+![HTTP Service](http-service.png)
 
 Der vorgegebene DHCP Pool `serverPool` ließ sich in Packet Tracer nicht löschen oder umbenennen. Deshalb habe ich ihn für die Vodafone WAN Adressen verwendet.
 
