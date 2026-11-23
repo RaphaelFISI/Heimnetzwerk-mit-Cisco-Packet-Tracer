@@ -26,7 +26,7 @@ In meinem echten Heimnetzwerk sind ein PC direkt per LAN und ein weiterer PC per
 
 Der Drucker ist kein Netzwerkgerät. Er ist lokal per Kabel mit dem Laptop verbunden.
 
-Für das WLAN habe ich die SSID `Heimnetz RaphaelFISI` eingerichtet. Als Sicherheit habe ich **WPA2 Personal mit AES** gewählt. WPA2 Personal passt zu einem Heimnetz, in dem kein zentraler Anmeldeserver verwendet wird. AES verschlüsselt die drahtlose Verbindung. Das Testpasswort steht nicht in diesem Repository.
+Für das WLAN habe ich die SSID `Heimnetz RaphaelFISI` eingerichtet. Als Sicherheit habe ich **WPA2 Personal mit AES** gewählt. WPA2 Personal passt zu einem Heimnetz, in dem kein zentraler Anmeldeserver verwendet wird. AES verschlüsselt die drahtlose Verbindung.
 
 ## Umsetzung in Packet Tracer
 
@@ -99,7 +99,7 @@ Der vorgegebene DHCP Pool `serverPool` ließ sich in Packet Tracer nicht lösche
 
 ### WLAN Repeater
 
-In echt ist der A-PC per LAN mit dem Repeater verbunden, und der Repeater verbindet sich per WLAN mit dem Hauptrouter. Packet Tracer konnte diese Verbindung mit dem gewählten Ersatz nicht zuverlässig nachbilden. Deshalb ist der A-PC in der Simulation direkt per LAN mit dem Hauptrouter verbunden. Der zweite WRT300N bleibt als sichtbarer Repeater-Ersatz in der Topologie. Diese Abweichung ist wichtig: Die direkte Kabelverbindung entspricht nicht dem echten Aufbau.
+In echt ist der A-PC per LAN mit dem Repeater verbunden, und der Repeater verbindet sich per WLAN mit dem Hauptrouter. Packet Tracer konnte diese Verbindung mit dem gewählten Ersatz nicht zuverlässig nachbilden. Deshalb ist der A-PC in der Simulation direkt per LAN mit dem Hauptrouter verbunden. Der zweite WRT300N bleibt als sichtbarer Repeater-Ersatz in der Topologie.
 
 ### Laptop WLAN
 
@@ -107,7 +107,7 @@ Beim M-Laptop erschien zuerst eine Fehlermeldung, weil ein WLAN Modul fehlte. Ic
 
 ### TV und Drucker
 
-Das Packet Tracer Modell `TV-PT` hatte keine passende WLAN Schnittstelle. Deshalb verwende ich `Generic Wireless` als TV0. Auch die Alexa-Küche ist als `Generic Wireless` dargestellt; ihre Sprach- und Cloud-Funktionen werden nicht simuliert.
+Das Packet Tracer Modell `TV-PT` hatte keine passende WLAN Schnittstelle. Deshalb verwende ich `Generic Wireless` als TV0. Auch die Alexa-Küche ist als `Generic Wireless` dargestellt. Ihre Sprach- und Cloud-Funktionen werden nicht simuliert.
 
 Der K-Printer bleibt außerhalb des Netzwerks. Packet Tracer bildet seine lokale Kabelverbindung zum Laptop in dieser Topologie nicht ab.
 
