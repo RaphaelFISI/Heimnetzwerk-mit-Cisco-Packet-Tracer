@@ -101,6 +101,8 @@ Der Vodafone DHCP-Server vergibt dem Internetanschluss des WRT300N die Adresse `
 
 Auf dem Vodafone Server ist außerdem DNS eingerichtet. Der Name `www.heimnetz.test` verweist auf den simulierten Webserver. Auf dem Internet Web-Server ist HTTP eingeschaltet.
 
+![Einstellungen des DNS-Dienstes](dns-service.png)
+
 ![HTTP Service](http-service.png)
 
 Der vorgegebene DHCP Pool `serverPool` ließ sich in Packet Tracer nicht löschen oder umbenennen. Deshalb habe ich ihn für die Vodafone WAN Adressen verwendet.
