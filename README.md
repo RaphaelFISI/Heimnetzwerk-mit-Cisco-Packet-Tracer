@@ -6,6 +6,10 @@ In diesem Projekt baue ich mein Heimnetzwerk mit Cisco Packet Tracer nach. Ich w
 
 Als Grundlage habe ich den Grundriss meiner Wohnung und die Geräte aus meinem Haushalt verwendet. Zusätzlich habe ich ein kleines Anbieternetz ergänzt, um nachzustellen, wie mein Heimrouter seine WAN-Adresse vom Internetanbieter erhält.
 
+## Dateien
+
+- [Packet-Tracer-Projekt herunterladen](Heimnetz-RaphaelFISI.pkt)
+
 ## Verwendete Software und Packet Tracer Geräte
 
 - Cisco Packet Tracer 8.2.2
